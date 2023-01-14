@@ -136,7 +136,7 @@ i{
     padding-top: 3vw;
 }
 
-#sub-icons{
+#sub_icons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 

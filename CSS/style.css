@@ -51,3 +51,12 @@ h2{
     width : 35px;
     height: 35px;
 }
+
+.highlight_area{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.highlight{
+    text-align: center;
+}

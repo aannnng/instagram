@@ -67,7 +67,6 @@ body{
 #profile_info{
     display: grid;
     grid-template-rows: 1fr 1fr;
-
     height: 15vw;
 }
 

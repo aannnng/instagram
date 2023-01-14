@@ -121,3 +121,30 @@ button{
     font-size: 10vw;
     font-weight: 100;
 }
+
+i{
+    color: gray;
+}
+
+#top i{
+    font-size: 14vw;
+}
+
+#top div{
+    text-align: center;
+    padding-top: 6vw;
+}
+
+#sub-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    text-align: center;
+    font-size: 15vw;
+
+    height: 30vw;
+}
+
+.selected{
+    border-bottom: solid gray 3px;
+}

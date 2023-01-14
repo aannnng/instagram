@@ -52,7 +52,7 @@ body{
 
 .highlight_area{
     display: grid;
-    grid-template-columns: 12vw 12pvw 1fr;
+    grid-template-columns: 12vw 12vw 1fr;
 }
 
 .highlight{

@@ -1,21 +1,16 @@
-h2{
-    color:red;
-}
-.highlight{
-    border:solid;
-}
-#profile{
-    border:solid;
-    border-color:blue;
+body{
+    font-size: 3vw;
 }
 
-.thumbnail_grid{
-    display:grid;
+.thumnails1_grid{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.thumbnail{
+.thumbnail.grid img{
     width:100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #stat_bar{
@@ -43,13 +38,13 @@ h2{
 }
 
 #profile_pic{
-    width : 50px;
-    height: 50px;
+    width : 50vw;
+    height: 50vw;
 }
 
 .highlight_pic{
-    width : 35px;
-    height: 35px;
+    width : 35vw;
+    height: 15vw;
 
     margin-left: auto;
     margin-right: auto;
@@ -57,7 +52,7 @@ h2{
 
 .highlight_area{
     display: grid;
-    grid-template-columns: 45px 45px 1fr;
+    grid-template-columns: 45vw 45vw 1fr;
 }
 
 .highlight{
@@ -73,11 +68,11 @@ h2{
     display: grid;
     grid-template-rows: 1fr 1fr;
 
-    height: 50px;
+    height: 50vw;
 }
 
 #id{
-    font-size: 18px;
+    font-size: 18vw;
     font-weight: 100;
 }
 
@@ -85,7 +80,7 @@ button{
     height: 80%;
     width: 95%;
 
-    font-size: 10px;
+    font-size: 10vw;
     background-color: white;
     border: solid gray 1px;
     border-radius: 3px;
@@ -123,6 +118,6 @@ button{
     border: solid gray 1px;
     border-radius: 3px;
 
-    font-size: 10px;
+    font-size: 10vw;
     font-weight: 100;
 }

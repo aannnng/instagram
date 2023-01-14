@@ -38,13 +38,13 @@ body{
 }
 
 #profile_pic{
-    width : 50vw;
-    height: 50vw;
+    width : 15px;
+    height: 15px;
 }
 
 .highlight_pic{
-    width : 35vw;
-    height: 15vw;
+    width : 10px;
+    height: 10px;
 
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +52,7 @@ body{
 
 .highlight_area{
     display: grid;
-    grid-template-columns: 45vw 45vw 1fr;
+    grid-template-columns: 12px 12px 1fr;
 }
 
 .highlight{
@@ -68,11 +68,11 @@ body{
     display: grid;
     grid-template-rows: 1fr 1fr;
 
-    height: 50vw;
+    height: 15px;
 }
 
 #id{
-    font-size: 18vw;
+    font-size: 6px;
     font-weight: 100;
 }
 
@@ -80,7 +80,7 @@ button{
     height: 80%;
     width: 95%;
 
-    font-size: 10vw;
+    font-size: 3px;
     background-color: white;
     border: solid gray 1px;
     border-radius: 3px;
@@ -89,7 +89,8 @@ button{
 #top{
     display: grid;
     grid-template-columns: 4fr 7fr 4fr;
-    height: 30px;
+    height: 10px;
+    min-height: 10px;
 
     border-bottom: solid gray 0.1px;
     margin-bottom: 10px;
@@ -99,7 +100,7 @@ button{
     margin-left: auto;
     margin-right: auto;
 
-    height: 100%;
+    height: 75%;
     object-fit: contain;
 }
 
@@ -118,7 +119,7 @@ button{
     border: solid gray 1px;
     border-radius: 3px;
 
-    font-size: 10vw;
+    font-size: 3px;
     font-weight: 100;
 }
 
@@ -127,12 +128,12 @@ i{
 }
 
 #top i{
-    font-size: 14vw;
+    font-size: 4px;
 }
 
 #top div{
     text-align: center;
-    padding-top: 6vw;
+    padding-top: 3vw;
 }
 
 #sub-icons{
@@ -140,9 +141,9 @@ i{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     text-align: center;
-    font-size: 15vw;
+    font-size: 5px;
 
-    height: 30vw;
+    height: 8px;
 }
 
 .selected{

@@ -50,7 +50,7 @@ body{
     margin-right: auto;
 }
 
-.highlight_area{
+#highlight_area{
     display: grid;
     grid-template-columns: 12vw 12vw 1fr;
 }
